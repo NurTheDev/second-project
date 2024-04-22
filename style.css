@@ -1,0 +1,301 @@
+body{
+    font-family: "Inter", sans-serif;
+    margin: 0;
+}
+.first-section{
+    background-image: url('/resources/Banner\ Image.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+    margin: 50px 140px;
+    color: white;
+    font-family: Merriweather;
+    text-align: center;
+}
+.first-line{
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 150px;
+    margin: 0px;
+    
+}
+.gradient{
+    background-image: linear-gradient(to bottom, black, transparent);
+    height: 100%;
+}
+.first-heading{
+    font-size: 72px;
+    font-weight: 900;
+    width: 632px;
+    display: inline-block;
+    margin-top: 25px;
+}
+.second-heading{
+    color: #f00;
+    text-align: center;
+    font-size: 90px;
+    font-weight: 700;
+}
+.second-section-des{
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    color: #f00;
+}
+.h2-heading{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    
+}
+.image{
+    display: flex;
+    justify-content: center;
+}
+.third-section{
+    background-image: url(/resources/Vectorrr.png);
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+    margin: 50px 140px;
+    color: white;
+    font-family: Merriweather;
+    
+}
+.third-gradiant{
+    background-image: linear-gradient(to right, black, transparent);
+    display: flex;
+    height: 100%;
+    gap: 100px;
+    border-radius: 20px;
+}
+.left-des-heading{
+    width: 642px;
+    font-size: 64px;
+    font-weight: 900;
+    letter-spacing: 7px;
+    margin-top: 126px;
+    margin-left: 126px;
+}
+.left-pera-des{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    width: 697px;
+    margin-left: 126px;
+}
+.right-img{
+    margin-top: 77px;
+}
+.btn1{
+    color: white;
+    margin-left: 160px;
+    background: none;
+    border: none;
+    font-size: 20px;
+}
+.place-time{
+    width: 1320px;
+    height: 600px;
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.10), rgba(255, 0, 0, 0.00) 100%);
+    margin: 50px 140px;
+    border-radius: 20px;
+}
+.time-container{
+    padding-top: 50px;
+    text-align: center;
+}
+.place, .date, .time{
+    color: #070211;
+    font-size: 32px;
+    font-weight: 600;
+
+}
+span{
+    color: #f00;
+}
+.btn2{
+    width: 170px;
+    height: 58px;
+    background-color: #f00;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    margin-top: 48px;
+}
+.coming-soon{
+    display: flex;
+    gap: 118px;
+    width: 1320px;
+    margin: 50px 140px;
+    align-items: center;
+}
+.new-best{
+    color: #f00;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+.coming{
+    font-size: 60px;
+    font-weight: 900;
+    color: #070211;
+    text-align: center;
+    font-family: merriwather;
+    margin: 16px;
+}
+.coming-des{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(7, 2, 17, 0.60);
+    width: 395px;
+}
+.img-coming{
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 50px;
+    border: 20px solid red;
+}
+.year{
+    color: #f00;
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0;
+
+}
+.holidays{
+    width: 1320px;
+    margin: 50px 140px;
+    text-align: center;
+}
+.funtional{
+    color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 100px;
+}
+.holdays50{
+    font-size: 72px;
+    font-family: meriweather;
+    font-weight: 900;
+    margin: 0;
+}
+.red{
+    color: #f00;
+}
+.holidays-des{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 500;
+}
+.img-sec{
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+.test{
+    float: right;
+    margin-bottom: -5px;
+}
+.gift-box{
+    position: absolute;
+    left: 50px;
+    bottom: 0px;
+    box-sizing: border-box;
+    width: 600px;
+    margin: 0;
+    padding: 0;
+}
+.discount50{
+    position: absolute;
+    top: 80px;
+    left: 700px;
+}
+.red-bar{
+    margin: 0;
+    padding: 0;
+}
+.gift{
+    margin: 50px 140px;
+    width: 1320px;
+}
+.gift-img{
+    box-sizing: border-box;
+}
+.coulmn{
+    float: left;
+    width: 30%;
+    padding: 5px;
+}
+.coulmn > img{
+    width: 390px;
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.best-gift{
+    padding: 0;
+}
+.red-line{
+    color: #f00;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+}
+.gift-heading{
+    font-size: 50px;
+    font-weight: 900;
+    margin: 0;
+    font-family: merriweather;
+}
+.gift-des{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+}
+.subscribe-container{
+    text-align: center;
+    padding: 120px;
+    width: 1320;
+    margin: 50px 140px;
+}
+.subscribe{
+    font-size: 50px;
+    font-weight: 900;
+    font-family: merriweather;
+    margin: 0;
+}
+.sub-des{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+}
+.input-cont{
+    /* width: 648px;
+    height: 72px; */
+    border-radius: 50px;
+}
+
+.input-email{
+    border: none;
+    padding: 10px;
+    font-size: 22px;
+}
+.btn3{
+    background-color: #f00;
+    padding: 24px;
+    color: #fff;
+    border-radius: 0px 50px 50px 0px;
+    width: 230px;
+    font-size: 22px;
+    font-weight: 600;
+    border: none;
+    margin: 10px;
+}
