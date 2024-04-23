@@ -299,3 +299,40 @@ span{
     border: none;
     margin: 10px;
 }
+footer{
+    background-color: #070211;
+    color: #fff;
+    width: 1600px;
+}
+.uper{
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 140px 10px 140px;
+}
+.left{
+    width: 375px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.contact{
+    font-size: 24px;
+    font-weight: 500;
+    padding: 0;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+}
+hr{
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    width: 1320px;
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 140px;
+    font-size: 24px;
+    font-weight: 500;
+}
